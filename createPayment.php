@@ -32,7 +32,7 @@ $postData = '{
         "allowed_payment_method": "INSTANT_FUNDING_SOURCE"
       },
 	  "item_list": {
-		 "shipping_phone_number":"+91 9840123456",
+		 "shipping_phone_number":"+65 81234567",
 		"items":[  
                {  
                   "name":"2500 Gold Coins",
