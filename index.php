@@ -15,7 +15,7 @@ include('config.php');
         paypal.Button.render({
 
             env: 'sandbox', // sandbox | production
-			//locale: 'nl_NL',
+	locale: 'en_SG',
 			
          style: {
             layout: 'vertical',  // horizontal | vertical
@@ -41,7 +41,7 @@ include('config.php');
                paypal.FUNDING.IDEAL,
                paypal.FUNDING.MYBANK,
                paypal.FUNDING.SOFORT,
-			   paypal.FUNDING.CARD
+		paypal.FUNDING.CARD
                ],
             disallowed: [paypal.FUNDING.CREDIT]
         },
@@ -88,7 +88,7 @@ include('config.php');
 							actions.restart();
 						}else{
 							window.location.href="successPayment.php?id=" + encodeURIComponent(res.id);
-							exit;
+							
 						}
                     })
 					.catch(function(err){
