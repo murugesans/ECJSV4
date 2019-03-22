@@ -27,7 +27,6 @@ $postData = '{
         "total":"0.01",
         "currency":"USD"
       },
-	  "invoice_number": "Inline-001",
       "payment_options": {
         "allowed_payment_method": "INSTANT_FUNDING_SOURCE"
       },
