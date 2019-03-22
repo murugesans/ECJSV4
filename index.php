@@ -31,17 +31,17 @@ include('config.php');
         // - paypal.FUNDING.CARD
         // - paypal.FUNDING.CREDIT
         // - paypal.FUNDING.ELV
-
-        funding: {
-            allowed: [
-               paypal.FUNDING.BANCONTACT,
+		/*paypal.FUNDING.BANCONTACT,
                paypal.FUNDING.ELV,
                paypal.FUNDING.EPS,
                paypal.FUNDING.GIROPAY,
                paypal.FUNDING.IDEAL,
                paypal.FUNDING.MYBANK,
-               paypal.FUNDING.SOFORT,
-		paypal.FUNDING.CARD
+               paypal.FUNDING.SOFORT,*/
+
+        funding: {
+            allowed: [
+               	paypal.FUNDING.CARD
                ],
             disallowed: [paypal.FUNDING.CREDIT]
         },
