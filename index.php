@@ -15,7 +15,7 @@ include('config.php');
         paypal.Button.render({
 
             env: 'production', // sandbox | production
-	locale: 'en_IN',
+	//locale: 'en_IN',
 			
          style: {
             layout: 'vertical',  // horizontal | vertical
