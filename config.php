@@ -4,7 +4,7 @@
     */
 
     //Whether Sandbox environment is being used, Keep it true for testing
-    define("SANDBOX_FLAG", true);
+    define("SANDBOX_FLAG", false);
   
 
     //PayPal REST API endpoints
@@ -39,6 +39,10 @@
     //PayPal REST App SG(dl-pp-seatesting@paypal.com) Live Client Id and Client Secret
     //define("LIVE_CLIENT_ID" , "AbOqLzAB6a-CyqMbj6TGE8ZLreaBKNFNecBMM7xHobWI_KXErRgjW_b4NWEalCReUHsP4Nzv7sBlXn8B");
     //define("LIVE_CLIENT_SECRET" , "EGIQtUQj-nGxOX5kQ2KNJoeHm7TSjvAVOOATVa_mQHHwrky3Q3wipUk9gyK-ayojyTTAbkdnvkl-gIKx");
+
+	//PayPal REST App INR
+	define("LIVE_CLIENT_ID" , "ARPu8-9rmvkI4rmAnt-_hV2ItjS7CwxRj04FO616UvRN-bxb36DOGwwMFTSIlJ2kuMhdPSphQ2OKvSOR");
+    	define("LIVE_CLIENT_SECRET" , "EHvqOFpjMPn-V9Ef4Lmy5mhAAXLv6UdSX1TN6A_uVa3oqPSGNgHE4VdWKzwc71w8Z1djxcjCKWWEH8YW");
 
     //ButtonSource Tracker Code
     define("SBN_CODE","PP-ECJSv4Sample");
