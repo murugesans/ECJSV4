@@ -12,9 +12,9 @@ $postData = '{
   "payer": {
     "payment_method":"paypal",
 	   "payer_info":{
-			"email": "muru@pp.com",
-			"first_name":"muru",
-			"last_name":"ss"
+			"email": "musuker@paypal.com",
+			"first_name":"murugesh",
+			"last_name":"s"
 		}
   },
   "application_context" : {
@@ -24,20 +24,20 @@ $postData = '{
   "transactions": [
     {
       "amount":{
-        "total":"0.01",
-        "currency":"USD"
+        "total":"1.00",
+        "currency":"INR"
       },
       "payment_options": {
         "allowed_payment_method": "INSTANT_FUNDING_SOURCE"
       },
 	  "item_list": {
-		 "shipping_phone_number":"+65 81234567",
+		 "shipping_phone_number":"+919840592426",
 		"items":[  
                {  
-                  "name":"2500 Gold Coins",
-                  "currency":"USD",
+                  "name":"Service product",
+                  "currency":"INR",
                   "quantity":1,
-                  "price":"0.01"
+                  "price":"1.00"
                }
             ]
 	  }
